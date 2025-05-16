@@ -1,10 +1,8 @@
-/* Geral */
-*{
-    margin: 0; 
+* {
+    margin: 0;
     padding: 0;
     line-height: 1.6;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -21,13 +19,11 @@ body {
 }
 
 b {
-    margin-left:20px;
+    margin-left: 20px;
     font-size: 2.4rem;
-    color:  #7C5C34;
+    color: #7C5C34;
     font-family: 'playfair', Courier, monospace;
 }
-
-/* Home*/
 
 .nav_home {
     background-image: url('../assets/ichiban sushi.png');
@@ -54,7 +50,7 @@ b {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: 2;
 }
 
@@ -85,7 +81,7 @@ b {
 
 .conteudo_home {
     font-size: 1.4rem;
-    margin-bottom: 2.0em;
+    margin-bottom: 2em;
     word-spacing: 0.15em;
 }
 
@@ -96,7 +92,6 @@ b {
     display: block;
 }
 
-/* Header */
 header {
     text-align: right;
 }
@@ -123,35 +118,31 @@ header nav a {
     text-align: center;
     border: 2px solid #9b8367;
     transition: background 0.5s;
-    font-size: 1.5em; 
+    font-size: 1.5em;
     display: inline-block;
     text-transform: uppercase;
-    width: fit-content; 
+    width: fit-content;
 }
-
 
 header nav a:hover {
     background-color: #9b8367;
     color: #4b0b0b;
 }
 
-/* Main*/
 main {
-    max-width: 800px;
+    max-width: 900px;
     margin: 50px auto;
-    padding: 30px 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+    padding: 60px 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0.9, 0.9);
     border: 3px solid #9b8367;
     color: white;
-    background-color: #3B0D0D;
+    background-color: #4B0B0B;
 }
 
-.main_contato{
+.main_contato {
     font-size: 1.1rem;
-    margin-bottom: 3.0em;
+    margin-bottom: 3em;
     word-spacing: 0.15em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -169,29 +160,6 @@ h2 {
     font-size: 1.5rem;
 }
 
-.nome_sushi {
-    color: white;
-}
-
-p {
-    color: white;
-    font-weight: 100;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.contato {
-    color: white;
-    text-decoration: none;
-    margin-left: 40px;
-}
-
-.final {
-    font-size: 1.4rem;
-    text-align: center;
-    color: #9b8367;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .card {
     background-color: #4b0b0baf;
     border: 1px solid #3a0000;
@@ -199,50 +167,53 @@ p {
     margin-bottom: 15px;
     padding: 15px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .imagem_sushi img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
+    border-radius: 6px;
+}
+
+.info_sushi {
+    flex: 1;
+    color: white;
 }
 
 .nome_sushi {
     font-size: 1.3rem;
     font-weight: bold;
-    color: white;
-    margin-top: 0;
-    margin-left: 150px;
+    margin: 0;
 }
 
 .descricao_sushi {
     font-size: 0.95rem;
-    color: #ffffff;
-    margin-bottom: 0px;
-    box-sizing: border-box;
-    height: 2vw;
-    width: 20vh;
+    margin: 5px 0 0 0;
+    width: auto;
+    height: auto;
 }
 
 .numeros {
     font-size: 1.2rem;
     color: #e63946;
     font-weight: bold;
+    white-space: nowrap;
 }
 
-/* Footer */
 footer {
     background: #190000;
     color: #adadad;
     margin-top: auto;
     border-top: 2px solid #9b8367;
     width: 100%;
-    height: 40%;
+    height: auto;
     text-align: center;
-    padding: 15px;
+    padding: 10px 15px;
     box-sizing: border-box;
 }
 
@@ -250,61 +221,39 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 10px 0;
+    color: #adadad;
 }
 
 .footer-section {
-    min-width: 200px;
-    margin-bottom: 20px;
-    padding: 0 15px;
+    min-width: 180px;
+    margin-bottom: 10px;
+    padding: 0 10px;
     text-align: left;
+    color: #adadad;
 }
 
 .footer-section h3 {
-    font-family: 'Brandon Grotesque', sans-serif;
-    margin-bottom: 10px;
-    color: #ddd;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-section li {
     margin-bottom: 8px;
-    font-family: 'Brandon Grotesque', sans-serif;
-    color: #666;
+    text-decoration: none;
+    color: #adadad;
+}
+
+.footer-section li,
+.footer-content p,
+footer h5 {
+    font-size: 0.9rem;
+    margin-bottom: 6px;
 }
 
 .footer-content a {
-    color: #666;
+    color: #adadad;
     text-decoration: none;
 }
 
 .footer-content a:hover {
     color: white;
 }
-
-.footer-content p {
-    margin-bottom: 8px;
-    font-family: 'Brandon Grotesque', sans-serif;
-    color: #666;
-}
-
-.footer-content p:hover {
-    cursor: pointer;
-    color: white;
-}
-
-footer h5 {
-    font-size: 1.1rem;
-    margin-top: 20px;
-    color: #adadad;
-}
-
-/*Button*/
 
 button {
     display: inline-block;
@@ -322,10 +271,8 @@ button {
 button:hover {
     background-color: #ae1c2b;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    color: #f0f0f0;
+    color: #ffffff;
 }
-
-/* Responsividade */
 
 @media (width <= 1024px) {
     header {
