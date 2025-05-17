@@ -186,6 +186,7 @@ h2 {
     height: 120px;
     object-fit: cover;
     border-radius: 6px;
+    box-shadow: 8px 8px #300606d2;
 }
 
 .info_sushi {
