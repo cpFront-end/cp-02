@@ -197,6 +197,7 @@ h2 {
     font-family: 'cardapio', 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     margin: 0;
+    letter-spacing: 2px;
 }
 
 .descricao_sushi {
