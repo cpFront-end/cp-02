@@ -220,11 +220,12 @@ h2 {
 }
 
 .final {
-    font-size: 1.7rem;
+    font-size: 2.0rem;
     font-weight: 500;
-    color: #9b8367;
+    color: #c4ad95;
     font-family: 'cardapio', 'Times New Roman', Times, serif;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 footer {
