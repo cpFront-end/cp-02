@@ -328,7 +328,7 @@ button:hover {
     }
 }
 
-.nav_home {
+.nav_home, .conteudo_home, main, .footer-content {
     animation: fadeIn 1.5s ease-in-out;
 }
 
