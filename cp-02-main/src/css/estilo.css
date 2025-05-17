@@ -288,6 +288,7 @@ button {
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     background-color: #dc3545;
+    max-width: 100%;
 }
 
 button:hover {
@@ -325,10 +326,42 @@ button:hover {
     .nav_home::before {
         width: 100%;
     }
+
+    .descricao_sushi {
+        display: none; 
+    }
+
+    .card {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+
+    .imagem_sushi img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .nome_sushi {
+        font-size: 1.6rem;
+        letter-spacing: 4px;
+    }
+
+    .numeros {
+        font-size: 2.0rem;
+        margin: 10px 0;
+    }
+
+    button {
+        width: 50%;
+        font-size: 1.5em;
+        padding: 8px 14px;
+    }
 }
 
 .nav_home, .conteudo_home, main, .footer-content {
     animation: fadeIn 1.5s ease-in-out;
+
 }
 
 @keyframes fadeIn {
