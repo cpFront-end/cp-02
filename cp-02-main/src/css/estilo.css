@@ -14,19 +14,16 @@ body {
 }
 
 @font-face {
-    font-family: 'playfair';
-    src: url('../assets/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'italic';
     src: url('../assets/forte_fonte.ttf');
 }
 
 @font-face {
     font-family: 'cardapio';
-    src: url('../assets/cardapio_fonte.ttf');
+    src: url('../assets/cardapio_fonte\ \(2\).ttf') format('truetype'),
+         
 }
+
 
 b {
     margin-left: 20px;
